@@ -1,0 +1,32 @@
+{
+  "name": "iu-lernzeit-manager",
+  "version": "1.0.0",
+  "description": "Lernzeit-Manager für berufsbegleitende Studierende",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@aws-amplify/ui-react": "^6.15.5",
+    "aws-amplify": "^6.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.3",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^1.24.0",
+    "@aws-amplify/backend-cli": "^1.9.0",
+    "@aws-sdk/client-cognito-identity-provider": "^3.1099.0",
+    "@types/node": "^26.1.2",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "aws-cdk-lib": "^2.244.0",
+    "constructs": "^10.8.0",
+    "esbuild": "^0.28.1",
+    "tsx": "^4.23.1",
+    "typescript": "^5.9.3",
+    "vite": "^5.2.0"
+  }
+}

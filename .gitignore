@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
+
+# Lock-Datei bewusst nicht versioniert: Versionen werden bei jedem
+# Build neu aufgeloest.
+package-lock.json
